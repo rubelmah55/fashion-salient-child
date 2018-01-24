@@ -1,0 +1,202 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Author: Azizul Haque
+Template: salient
+Version: 1.0
+*/
+h4{
+    font-size: 24px;
+}
+td, tr {
+    color: #000;
+}
+p{
+    line-height: 24px;
+}
+ul li{
+    line-height: 24px;
+    font-size: 16px;
+}
+h4.infoguide a{
+    color: #fff;
+}
+h4.infoguide a:hover{
+    color: #000;
+}
+ table caption {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#tab-where-to-buy, #tab-installation-video, #tab-model-numbers, #tab-door-sizes, #tab-info-guides, #tab-double-bolt-lock, #tab-colors {
+    background-color: #10D9E4;
+    padding: 30px 20px;
+    color: #fff;
+}
+.border {
+    border: 1px solid #10D9E4;
+    padding: 15px;
+}
+.tabbed >ul{
+    margin-bottom: 0 !important;
+}
+
+.container-wrap{
+	padding-bottom: 0 !important;
+	padding-top: 53px;
+}
+.wpb_row{
+	margin-bottom: 0 !important;
+}
+.divider-small-border {
+    margin: 0 auto;
+}
+.call-now{
+	color: #fff !important;
+}
+.call-now:hover{
+	color: #0C2F7C !important;
+}
+#footer-outer{
+	background-color: #0C2D63;
+}
+#footer-outer .widget h4{
+	font-size: 24px;
+    letter-spacing: 1px !important;
+    color: #fff;
+}
+#footer-outer a{
+	color: #10d9e4 !important;
+	text-decoration: underline;
+}
+#footer-outer a:hover {
+    text-decoration: none;
+}
+div#copyright p {
+    color: #30d9c4;
+}
+#footer-outer #copyright li a i{
+	color: #30d9c4;
+	text-decoration: none;
+}
+.title-section{
+	position: relative;
+}
+.title-section:after{
+	display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 2;
+    background-color: #00000070;
+}
+body .gform_wrapper ul li.gfield{
+	    margin-top: 0px !important;
+}
+body .gform_wrapper .top_label .gfield_label{
+	margin-bottom: 0 !important;
+}
+body .wpb_text_column {
+    margin-bottom: 0px;
+}
+.gform_wrapper {
+    padding: 0 40px;
+}
+.contact-title {
+    background: #30d9c4;
+    padding: 20px 0;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}
+.form {
+    background: #fff;
+    border-radius: 20px;
+}
+label.gfield_label {
+    color: #30d9c4;
+}
+/*testimonial-item*/
+.testimonial-item {
+    padding: 30px 30px 20px 30px !important;
+    background-color: #f7f7f7;
+}
+.testimonial-author {
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex: 0 0 auto;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flexbox;
+    display: -ms-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+}
+.testimonial-content {
+    margin-bottom: 0px;
+}
+.testimonial-avatar{
+	padding: 0px 20px 20px 0px;
+    width: 90px;
+}
+.testimonial-avatar img{
+	border-radius: 60px;
+}
+.testimonial-name span {
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.testimonial-vcard .text-secondary {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #1ebbf0;
+}
+.testimonial-position span {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.testimonial-vcard {
+    margin-top: -20px;
+}
+.thumbnail img {
+    width: 100%;
+}
+.col.span_4.thumbnail {
+    width: 31%;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1000px) and (min-width: 768px){
+    .col.span_4.thumbnail {
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .col.span_4.thumbnail {
+        width: 100%;
+    }
+}
+.mfp-no-margins img.mfp-img {
+    padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+    padding: 0;
+}
